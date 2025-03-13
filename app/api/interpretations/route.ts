@@ -74,3 +74,4 @@ export async function DELETE() {
     );
   }
 }
+export const dynamic = "force-static"; // ✅ Forces static export

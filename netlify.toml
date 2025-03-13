@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = ".next" # ✅ Ensures Netlify deploys the correct folder
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
