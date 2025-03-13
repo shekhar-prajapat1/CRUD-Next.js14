@@ -10,7 +10,7 @@ It includes **robust data management**, a clean UI, and **secure authentication*
 
 ## 🛠 **Tech Stack**
 - **Frontend & Backend:** Next.js 14 (with TypeScript)  
-- **Database:** **Appwrite (NoSQL Document Database)**  
+- **Database:** **Appwrite (NoSQL Document Database) also familiar with MongoDB and MYsql**  
 - **Styling:** Tailwind CSS /CSS
 - **Hosting & Deployment:** Vercel / Netlify  
 - **Authentication:** JWT-based authentication   
