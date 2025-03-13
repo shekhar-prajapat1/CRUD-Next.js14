@@ -22,6 +22,9 @@ It includes **robust data management**, a clean UI, and **secure authentication*
 ## 📌 **Database & Data Management**
 This project uses **Appwrite**, a **NoSQL document-based database** for managing structured data.
 
+
+All the data are stored in the backeend
+
 ### **🗄 How Data is Stored in Appwrite**
 - **Collections** → Like tables in SQL, used to store structured data.  
 - **Documents** → Like rows in SQL, each document has a unique `$id`.  
@@ -71,10 +74,10 @@ This project uses **Appwrite**, a **NoSQL document-based database** for managing
 
 ---
 
-## 🎯 **Additional Features (Good to Have)**
+## 🎯 **Additional Features**
 ### 🔑 **Authentication & Authorization (Optional)**
 - Implemented **JWT-based authentication**  
-- Added **role-based access control** for secure resource management  
+- Added **role-based access control** for secure resource management  (not fully updated)
 
 ### 🛠 **Testing**
 - Considered **integration and end-to-end testing** for high reliability  
