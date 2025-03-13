@@ -1,6 +1,8 @@
-const nextConfig = {
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   reactStrictMode: true,
-  output: "standalone", // ✅ Allows dynamic pages without `generateStaticParams`
+  output: "standalone", // ✅ Enables dynamic API routes
 };
 
 export default nextConfig;

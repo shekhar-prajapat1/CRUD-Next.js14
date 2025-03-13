@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { databases } from "../../../../lib/appwrite"; // Adjust path if needed
+export const dynamic = "force-dynamic"; // ✅ Forces server execution
 
 const DATABASE_ID = process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID || "";
 const COLLECTION_ID = process.env.NEXT_PUBLIC_APPWRITE_COLLECTION_ID || "";
@@ -77,4 +78,3 @@ export async function DELETE(req: NextRequest) {
     return NextResponse.json({ error: error.message || "Failed to delete document." }, { status: 500 });
   }
 }
-export const dynamic = "force-static"; // ✅ Forces static export

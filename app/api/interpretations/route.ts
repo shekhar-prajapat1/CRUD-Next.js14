@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { databases } from "../../../lib/appwrite"; // Adjust path if needed
+export const dynamic = "force-dynamic"; // ✅ Forces server execution
 
 // ✅ Ensure environment variables are properly defined
 const DATABASE_ID = process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID as string;
@@ -74,4 +75,3 @@ export async function DELETE() {
     );
   }
 }
-export const dynamic = "force-static"; // ✅ Forces static export
