@@ -13,9 +13,9 @@ It includes **robust data management**, a clean UI, and **secure authentication*
 - **Database:** **Appwrite (NoSQL Document Database)**  
 - **Styling:** Tailwind CSS  
 - **Hosting & Deployment:** Vercel / Netlify  
-- **Authentication:** JWT-based authentication (optional)  
+- **Authentication:** JWT-based authentication   
 - **Security:** Data validation, sanitization, and secure authorization  
-- **Testing:** Integration and end-to-end testing (optional)  
+- **Testing:** Integration and end-to-end testing (mannualy checking)  
 
 ---
 
