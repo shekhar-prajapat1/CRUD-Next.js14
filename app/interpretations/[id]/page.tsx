@@ -1,11 +1,12 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, use } from "react";
 import { useRouter } from "next/navigation";
 import { databases } from "../../../lib/appwrite";
 
 const COLLECTION_ID = "your_collection_id"; // Replace with actual Collection ID
 
-export default function ViewInterpretation({ params }: { params: { id: string } }) {
+export default function ViewInterpretation(props: { params: Promise<{ id: string }> }) {
+  const params = use(props.params);
   const [interpretation, setInterpretation] = useState<any>(null);
   const router = useRouter();
 
