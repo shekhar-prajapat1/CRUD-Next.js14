@@ -22,7 +22,7 @@ export default function CreateInterpretation() {
       const response = await fetch("/api/interpretations", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ term, interpretations }), // ✅ Ensure correct data
+        body: JSON.stringify({ term, interpretations }), 
       });
 
       if (!response.ok) {
@@ -30,7 +30,7 @@ export default function CreateInterpretation() {
         throw new Error(result.error || "Failed to create interpretation");
       }
 
-      router.push("/"); // ✅ Redirect to home after successful creation
+      router.push("/"); 
     } catch (err: any) {
       setError(err.message);
     }
