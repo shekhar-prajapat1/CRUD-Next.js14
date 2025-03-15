@@ -91,7 +91,7 @@ All the data are stored in the backeend
 This project was **successfully developed** with all planned features and best practices.  
 It is **fully functional**, optimized, and **ready for real-world use!**  
 
-🚀 **Live Demo:** [https://crud-next-js14-32i8-72wxpfc21-shekhar-prajapat1s-projects.vercel.app/]  
+🚀 **Live Demo:** [https://crud-next-js14-32i8.vercel.app/]  
 
 
 ---
